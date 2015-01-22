@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
     vendor/hp/maya/proprietary/etc/camera_overrides_front.isp:system/etc/camera_overrides_front.isp \
     vendor/hp/maya/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/hp/maya/proprietary/etc/firmware/bcm4334.hcd:system/etc/firmware/bcm4334.hcd \
     vendor/hp/maya/proprietary/etc/firmware/maya_ec.bin:system/etc/firmware/maya_ec.bin \
     vendor/hp/maya/proprietary/etc/firmware/maya_ec_hpsign.bin:system/etc/firmware/maya_ec_hpsign.bin \
     vendor/hp/maya/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
@@ -38,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/etc/firmware/OfficialPubKey.bin:system/etc/firmware/OfficialPubKey.bin \
     vendor/hp/maya/proprietary/etc/firmware/tegra11x/nvhost_msenc02.fw:system/etc/firmware/tegra11x/nvhost_msenc02.fw \
     vendor/hp/maya/proprietary/etc/firmware/tegra11x/nvhost_tsec.fw:system/etc/firmware/tegra11x/nvhost_tsec.fw \
+    vendor/hp/maya/proprietary/etc/nvram_4334.txt:system/etc/nvram_4334.txt \
     vendor/hp/maya/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/hp/maya/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/hp/maya/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
@@ -127,6 +129,8 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hp/maya/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/maya/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
+    vendor/hp/maya/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
+    vendor/hp/maya/proprietary/vendor/firmware/bcm4334/fw_bcmdhd_mfg.bin:system/vendor/firmware/bcm4334/fw_bcmdhd_mfg.bin \
     vendor/hp/maya/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/hp/maya/proprietary/vendor/lib/hw/power.maya.so:system/vendor/lib/hw/power.maya.so \
     vendor/hp/maya/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
