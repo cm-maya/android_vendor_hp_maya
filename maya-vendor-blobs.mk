@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/maya/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
     vendor/hp/maya/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/maya/proprietary/lib/libtbb.so:system/lib/libtbb.so \
-    vendor/hp/maya/proprietary/lib/libtinyalsa-legacy.so:system/lib/libtinyalsa-legacy.so \
     vendor/hp/maya/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hp/maya/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/maya/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
